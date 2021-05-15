@@ -36,7 +36,7 @@ df = pd.read_excel(xlsx, header=0)
 #Zadanie 3
 
 df1 = pd.read_csv('zamowienia.csv', header=0, sep=';', decimal='.')
-print(df1)
+# print(df1)
 
 #•	listę unikalnych nazwisk sprzedawców (przetwarzając zwróconą pojedynczą kolumnę z DataFrame)
 # print(df1['Sprzedawca'].unique())
